@@ -1,1 +1,159 @@
 /* You can add global styles to this file, and also import other style files */
+.custom-color {
+  background-color: #F77B72!important;
+}
+main{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width:100%;
+   height: 100%;
+  }
+h5{
+   text-transform: uppercase;
+  font-size: 2.5rem;
+  text-align: center;
+   letter-spacing: 5px;
+   word-spacing:5px;
+   color:#fcfcfc;
+    font-weight: 700;
+    text-shadow: 0px 0px 15px #f9f9f9;
+}
+  h3{
+    color:#212529;
+  }
+ 
+  #about p{
+    line-height: 25px;
+  }
+h3,p{
+    font-family:'Spartan',sans-serif;
+    padding:20px 0;
+    font-size:2.5rem!important;
+
+}
+p{
+  color:hsl(201, 11%, 66%);
+  font-size: 1rem!important;
+
+  
+}
+.collapsible-body p{
+  padding-top: 0px;
+  padding-bottom:0px;
+}
+a,h4 ,button{
+   font-family:'Spartan',sans-serif;
+  letter-spacing: 1px;
+}
+.overlay-3 {
+background-color: #d3d3d394;
+width:100%;
+height: 100%;
+position: absolute;
+opacity: 1;
+z-index: 900;
+left:0px;
+top: 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+transition: all 1.5s ease;
+border-radius: 8px;
+
+
+}
+aside{
+position: relative;
+}
+aside:hover .overlay-3{
+display: none;
+opacity: 0;
+}
+.fa-search{
+color:#ffff;
+}
+#contact{
+  margin-top: 10vh;
+  padding-top: 10vh;
+padding-bottom: 10vh;
+background-color: #f9f9f982;
+}
+img{
+  border-radius: 8px;
+ 
+}
+.fa{
+  padding: 20px;
+}
+
+/* animation */
+@keyframes Animation{
+0%{
+    opacity: 0;
+    }
+58%{
+    opacity: 0.5;
+    }
+100%{
+    transform: rotate(xx);
+    opacity: 1;
+    }
+}
+
+.blink{
+animation: Animation 3s forwards 0.5s ease-in;
+}
+
+.carousel .carousel-item {
+overflow: hidden;
+width: 700px;
+height: 550px;
+position: absolute;
+top: 0;
+left:0px;
+
+}
+/* animation */
+
+#silders{
+margin-top: 15vh;
+margin-bottom: 10vh;
+}
+
+@media(max-width:440px)
+{
+.carousel.carousel-slider .carousel-fixed-item.with-indicators {
+bottom: 55px;
+}
+
+.carousel h3{
+font-size: 10vw;
+}
+}
+
+@media(max-width:375px){
+textarea{
+width: 89vw!important;
+}
+#about .alg{
+padding-bottom: 20px;
+}
+.carousel .carousel-item{
+background-size: 100% 100%;
+}
+h5{
+font-size: 2rem;
+line-height:10vh;
+}
+
+.overlay-3{
+    width: 340px;
+    height: 227px;
+}
+
+
+
+}

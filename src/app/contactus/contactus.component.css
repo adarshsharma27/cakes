@@ -1,0 +1,25 @@
+ #contact ::placeholder{
+    color:#999!important;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-left:8px;
+    font-family:'Spartan',sans-serif;
+    }
+    #contact input{
+    border:2px solid #fba29c!important;
+    border-radius: 5px!important;
+    }
+    #contact  textarea{
+    border:2px solid #fba29c!important;
+    height: 109px!important;
+    margin-left:9px!important;
+    width: 63vw!important;
+    border-radius: 5px!important;
+    
+    }
+    
+    @media(max-width:375px){
+        #contact textarea{
+            width: 89vw!important;
+            }
+    }
