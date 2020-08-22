@@ -33,7 +33,8 @@
              "./node_modules/jquery/dist/jquery.min.js",
               "./node_modules/aos/dist/aos.js",
               "./node_modules/materialize-css/dist/js/materialize.min.js",
-              "./node_modules/simplelightbox/dist/simple-lightbox.jquery.min.js"
+              "./node_modules/simplelightbox/dist/simple-lightbox.jquery.min.js",
+              "src/assets/js/materialjs.js"
             ]
           },
           "configurations": {

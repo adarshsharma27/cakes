@@ -19,6 +19,7 @@ h5{
    color:#fcfcfc;
     font-weight: 700;
     text-shadow: 0px 0px 15px #f9f9f9;
+    font-family:'Spartan',sans-serif;
 }
   h3{
     color:#212529;
@@ -50,7 +51,7 @@ a,h4 ,button{
 .overlay-3 {
 background-color: #d3d3d394;
 width:100%;
-height: 100%;
+height:98%;
 position: absolute;
 opacity: 1;
 z-index: 900;
@@ -108,9 +109,8 @@ animation: Animation 3s forwards 0.5s ease-in;
 }
 
 .carousel .carousel-item {
-overflow: hidden;
-width: 700px;
-height: 550px;
+width: 600px!important;
+height: 400px!important;
 position: absolute;
 top: 0;
 left:0px;
@@ -151,7 +151,7 @@ line-height:10vh;
 
 .overlay-3{
     width: 340px;
-    height: 227px;
+    height:100%;
 }
 
 

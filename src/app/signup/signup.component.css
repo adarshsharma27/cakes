@@ -78,8 +78,8 @@
      text-align: center;
      padding-top:10px;
    }
-   form span{
-     color: hsl(0, 100%, 74%) ;
+   form span a{
+     color: hsl(0, 100%, 74%)!important;
    }
    input{
      width: 456px!important;

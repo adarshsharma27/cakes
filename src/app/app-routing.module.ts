@@ -13,7 +13,9 @@ const routes: Routes = [
   {path:'cupcakes',component:CupcakesComponent},
   {path:'pastries',component:PastriesComponent},
   {path:'signup',component:SignupComponent},
+  {path:'signup/login',component:LoginComponent},
   {path:'login',component:LoginComponent},
+
   {path:'**',component:HomeComponent}
 ];
 
